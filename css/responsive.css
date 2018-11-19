@@ -256,6 +256,11 @@
         height: 40px;
         padding: 0 15px;
     }
+
+    .subscribe-box-2 .form-control-2 {
+      margin-left: auto;
+      margin-right: auto;
+    }
     #map {
         height: 260px;
         width: 100%;
