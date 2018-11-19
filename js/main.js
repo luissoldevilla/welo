@@ -1,5 +1,5 @@
 /* ================================================
-Template Name: APPAI 
+Template Name: APPAI
 Description: Creative App Landing HTML5 Template
 Template URI: https://themeforest.net/item/appai-creative-app-landing-html5-template/19533013
 Author: Marvel_Theme
@@ -165,7 +165,8 @@ Version: 1.3 (18 March 2018)
     });
 
     // parallax
-    $('#slider-area.home-style-2').parallax("50%", 0.3);
+    $('#slider-area.home-style-2');
+    // .parallax("50%", 0.3);
 
     // preloader
     $(window).on('load', function() {
@@ -198,7 +199,7 @@ Version: 1.3 (18 March 2018)
 // Home 2 promo header carousel
 (function($) {
     'use strict';
-    
+
     var mySwiper = new Swiper('.swiper-container.one', {
         effect: 'coverflow',
         speed: 3000,

@@ -428,6 +428,11 @@
     .home-style-3.ptb-150 {
         padding: 80px 0;
     }
+    /* get early access section */
+    .subscribe-box-2 .form-control-2 {
+      margin-left: auto;
+      margin-right: auto;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -443,6 +448,13 @@
         font-size: 14px;
         padding: 20px 10px;
     }
+
+    /* get early access section */
+    .subscribe-box-2 .form-control-2 {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
     #slider-area.home-style-1:before, #slider-area.home-style-1:after {
         border-top: 120px solid transparent;
     }
@@ -552,6 +564,12 @@
         height: 60px;
         padding: 0 40px;
     }
+
+    .subscribe-box-2 button {
+        padding: 0 45px;
+        font-size: 18px;
+    }
+
     .contact-box-inner .get-in-touch {
         padding: 30px;
     }
@@ -678,9 +696,21 @@
         right: 10px;
     }
 
-    .subscribe-box .form-control {
-      margin-left: 20px;
+    .subscribe-box-2 button {
+        padding: 0 45px;
+        font-size: 18px;
     }
+
+    .subscribe-box .form-control {
+      margin-left: 17px;
+      width: 350px;
+    }
+
+    .subscribe-box-2 .form-control-2 {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
     #footer-area {
         padding-bottom: 40px;
         padding-top: 21em;
@@ -709,6 +739,17 @@
 
 /* Large Devices, Wide Screens */
 
+@media (min-width: 1199px) and (max-width: 1366px) {
+  .subscribe-box button {
+      padding: 0 45px;
+      /* right: 0px; */
+      font-size: 18px;
+  }
+  .subscribe-box .form-control {
+    /* margin-left: 25px; */
+  }
+}
+
 @media (min-width: 1170px) and (max-width: 1366px) {
     #slider-area .slider-text {
         padding-bottom: 26em;
@@ -727,14 +768,26 @@
         padding-bottom: 200px;
     }
     .subscribe-box button {
-        padding: 0 45px;
-        right: 20px;
-        font-size: 18px;
+        /* padding: 0 45px; */
+        right: 65px;
+        /* font-size: 18px; */
     }
+
+    .subscribe-box-2 button {
+        /* padding: 0 45px; */
+        /* font-size: 18px; */
+    }
+
     .subscribe-box .form-control {
-      margin-left: 10px;
+      margin-left: 80px;
+    }
+
+    .subscribe-box-2 .form-control-2 {
+      margin-left: auto;
+      margin-right: auto;
     }
 }
+
 @media (min-width: 1367px) and (max-width: 1920px) {
     #slider-area .slider-text {
         padding-bottom: 27em;
@@ -768,6 +821,7 @@
         font-size: 18px;
     }
     .subscribe-box-2 .form-control-2 {
-      margin-left: 535px;
+      margin-left: auto;
+      margin-right: auto;
     }
 }
