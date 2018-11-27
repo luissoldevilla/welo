@@ -36,20 +36,38 @@
             <nav class="navbar navbar-fixed-top" data-spy="affix" data-offset-top="1">
                 <div class="container">
                     <div class="navbar-header">
-                        <a class="navbar-brand" href=""><img src="img/logo/welo-logo.png" alt="logo" class="img-responsive"></a>
+                        <a class="navbar-brand" href=""><img src="img/logo/logo-welo-grey.png" alt="logo" class="img-responsive"></a>
                     </div>
                     <div class="collapse navbar-collapse" id="navigation">
                         <ul class="nav navbar-nav navbar-right">
                           <li><a href="#page-to">Home</a></li>
                           <li><a href="#app-about-area">About</a></li>
                           <li><a href="#team-area">Team</a></li>
-                          <li><a href="#contact-area" class="btn-bordered-grad">Sign Up</a></li>
+                          <li><a type="button" data-toggle="modal" data-target="#exampleModalCenter" class="btn-bordered-grad">Sign Up</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
         <!-- header area end -->
+        <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Please enter your email</h5>
+                  </div>
+                  <div class="modal-body">
+                    <form class="subscription-form" method="POST" action="php/subscribe.php">
+                        <input type="email" class="form-control" id="subscribe-input" name="subscribe-input" placeholder="email here..">
+                        <button class="email-submit-btn" type="submit">Submit</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
         <!-- slider area start -->
         <section id="slider-area" class="home-style-2">
             <div class="container">
@@ -90,8 +108,8 @@
                             <li>Communicate your vision of health</li>
                           </ul>
 
-                          <span>LEARN MORE</span>
-                          <a href="#"><i class="icofont icofont-arrow-right"></i></a>
+                          <span type="button" data-toggle="modal" data-target="#exampleModalCenter" class="btn-bordered-grad">LEARN MORE</span>
+                          <a type="button" data-toggle="modal" data-target="#exampleModalCenter" class="btn-bordered-grad"><i class="icofont icofont-arrow-right"></i></a>
                       </div>
                   </div>
                   <div class="col-sm-6 hidden-xs wow fadeIn">
@@ -123,7 +141,7 @@
                             <li>Become healthier</li>
                           </ul>
 
-                          <button>Get Early Access</button>
+                          <button type="button" data-toggle="modal" data-target="#exampleModalCenter" class="btn-bordered-grad">Get Early Access</button>
                       </div>
                   </div>
               </div>
@@ -146,8 +164,8 @@
                             <li>Get friends & family to join in on a healthy lifestyle</li>
                           </ul>
 
-                          <span>LEARN MORE</span>
-                          <a href="#"><i class="icofont icofont-arrow-right"></i></a>
+                          <span type="button" data-toggle="modal" data-target="#exampleModalCenter" class="btn-bordered-grad">LEARN MORE</span>
+                          <a type="button" data-toggle="modal" data-target="#exampleModalCenter" class="btn-bordered-grad"><i class="icofont icofont-arrow-right"></i></a>
 
                       </div>
                   </div>
@@ -182,7 +200,7 @@
                             <li>Keep up to date with their progress</li>
                           </ul>
 
-                          <button>Get More Info</button>
+                          <button type="button" data-toggle="modal" data-target="#exampleModalCenter" class="btn-bordered-grad">Get More Info</button>
                       </div>
                   </div>
               </div>

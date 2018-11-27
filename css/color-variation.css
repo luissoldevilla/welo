@@ -11,8 +11,8 @@
 .contact-box.home-style-2 .form-grad-border,
 .home-style-2 .slick-dots li.slick-active,
 .social.home-style-2 a::after {
-    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #ee0f6f 0%, #f89482 100%) repeat scroll 0 0;
-    background: rgba(0, 0, 0, 0) linear-gradient(to right, #ee0f6f 0%, #f89482 100%) repeat scroll 0 0;
+    /* background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #ee0f6f 0%, #f89482 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #ee0f6f 0%, #f89482 100%) repeat scroll 0 0; */
 }
 
 .member-description.home-style-2 {

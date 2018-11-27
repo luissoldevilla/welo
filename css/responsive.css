@@ -451,7 +451,6 @@
     }
     .navbar-nav li a {
         font-size: 14px;
-        padding: 20px 10px;
     }
 
     /* get early access section */
@@ -746,7 +745,7 @@
 
 @media (min-width: 1199px) and (max-width: 1366px) {
   .subscribe-box button {
-      padding: 0 45px;
+      /* padding: 0 45px; */
       /* right: 0px; */
       font-size: 18px;
   }
@@ -818,7 +817,7 @@
       top: 80px;
     }
     .subscribe-box button {
-        padding: 0 45px;
+        /* padding: 0 45px; */
         font-size: 18px;
     }
     .subscribe-box-2 button {
