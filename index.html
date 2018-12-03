@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
     <!-- modernizr js -->
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
@@ -36,13 +37,17 @@
             <nav class="navbar navbar-fixed-top" data-spy="affix" data-offset-top="1">
                 <div class="container">
                     <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation" aria-expanded="false">
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                      </button>
                         <a class="navbar-brand" href=""><img src="img/logo/logo-welo-grey.png" alt="logo" class="img-responsive"></a>
                     </div>
                     <div class="collapse navbar-collapse" id="navigation">
                         <ul class="nav navbar-nav navbar-right">
-                          <li><a href="#page-to">Home</a></li>
-                          <li><a href="#app-about-area">About</a></li>
-                          <li><a href="#team-area">Team</a></li>
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="about.html">About</a></li>
                           <li><a type="button" data-toggle="modal" data-target="#exampleModalCenter" class="btn-bordered-grad">Sign Up</a></li>
                         </ul>
                     </div>
@@ -59,7 +64,7 @@
                   </div>
                   <div class="modal-body">
                     <form class="subscription-form" method="POST" action="php/subscribe.php">
-                        <input type="email" class="form-control" id="subscribe-input" name="subscribe-input" placeholder="email here..">
+                        <input type="email" class="form-control-modal" id="subscribe-input" name="subscribe-input" placeholder="email here..">
                         <button class="email-submit-btn" type="submit">Submit</button>
                     </form>
                   </div>
@@ -98,9 +103,9 @@
           <div class="container">
             <!-- first section  -->
               <div class="row">
-                  <div class="col-sm-6">
+                  <div class="col-sm-6 col-xs-12">
                       <div class="about-app mt-100">
-                          <h1><i>Upload</i></h1>
+                          <h1><span id="green-text">Upload</span></h1>
                           <h1>your content</h1>
                           <ul>
                             <li>Post recipes & workouts</li>
@@ -112,10 +117,10 @@
                           <a type="button" data-toggle="modal" data-target="#exampleModalCenter" class="btn-bordered-grad"><i class="icofont icofont-arrow-right"></i></a>
                       </div>
                   </div>
-                  <div class="col-sm-6 hidden-xs wow fadeIn">
-                      <div class="about-app-mockup">
-                          <img src="img/upload.png" alt="" class="img-responsive">
-                      </div>
+                  <div class="col-sm-6 col-xs-12 wow fadeIn">
+                    <div class="about-app-mockup">
+                      <img src="img/upload.png" alt="" class="img-responsive">
+                    </div>
                   </div>
               </div>
             </div>
@@ -127,17 +132,16 @@
           <div class="container">
 
               <div class="row">
-                  <div class="col-sm-6 hidden-xs wow fadeIn">
+                  <div class="col-sm-6 col-xs-12 wow fadeIn">
                     <div class="about-app-mockup">
                       <img src="img/view-posts.png" alt="" class="img-responsive">
                     </div>
                   </div>
-                  <div class="col-sm-6">
-                      <div class="about-app mt-100">
-                          <h1><i>View</i> posts</h1>
+                  <div class="col-sm-6 col-xs-12">
+                      <div class="about-app mt-1001">
+                          <h1><span id="green-text">View</span> posts</h1>
                           <ul>
-                            <li>Educate</li>
-                            <li>Try new recipes and workouts</li>
+                            <li>Educate yourself. Try new things</li>
                             <li>Become healthier</li>
                           </ul>
 
@@ -155,13 +159,13 @@
           <section class="home-style-2 ptb-120">
             <div class="container">
               <div class="row">
-                  <div class="col-sm-6">
+                  <div class="col-sm-6 col-xs-12">
                       <div class="about-app mt-100">
-                          <h1><i>Share</i></h1>
+                          <h1><span id="green-text">Share</span></h1>
                           <h1>with friends</h1>
                           <ul>
-                            <li>Get friends & family to join a healthy lifestyle</li>
-                            <li>Get friends & family to join in on a healthy lifestyle</li>
+                            <li>Spread positivity. Get friends & family</li>
+                            <li>to join in on a healthy lifestyle</li>
                           </ul>
 
                           <span type="button" data-toggle="modal" data-target="#exampleModalCenter" class="btn-bordered-grad">LEARN MORE</span>
@@ -169,10 +173,10 @@
 
                       </div>
                   </div>
-                  <div class="col-sm-6 hidden-xs wow fadeIn">
-                      <div class="about-app-mockup">
-                          <img src="img/share.png" alt="" class="img-responsive">
-                      </div>
+                  <div class="col-sm-6 col-xs-12 wow fadeIn">
+                    <div class="about-app-mockup">
+                      <img src="img/share.png" alt="" class="img-responsive">
+                    </div>
                   </div>
               </div>
 
@@ -185,14 +189,14 @@
             <div class="container">
 
               <div class="row">
-                  <div class="col-sm-6 hidden-xs wow fadeIn">
+                  <div class="col-sm-6 col-xs-12 wow fadeIn">
                     <div class="about-app-mockup">
                       <img src="img/next-step.png" alt="" class="img-responsive">
                     </div>
                   </div>
-                  <div class="col-sm-6">
-                      <div class="about-app mt-100 single-line">
-                          <h1><i>Take the next step</i></h1>
+                  <div class="col-sm-6 col-xs-12">
+                      <div class="about-app mt-1001 single-line">
+                          <h1><span id="green-text">Take the next step</span></h1>
                           <h1>become a professional</h1>
                           <ul>
                             <li>Manage clients</li>

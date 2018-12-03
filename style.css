@@ -470,8 +470,13 @@ MARGIN TOP
 }
 
 .mt-100 {
-    margin-top: 130px;
-    margin-left: 80px;
+    margin-top: 170px;
+    margin-left: 160px;
+}
+
+.mt-1001 {
+    margin-top: 170px;
+    margin-left: 40px;
 }
 
 .mt-110 {
@@ -1167,6 +1172,7 @@ header {
 
 #navigation {
     padding: 0 15px;
+    /* background: #54d99a; */
 }
 
 .navbar {
@@ -1198,7 +1204,7 @@ header {
 }
 
 .navbar-nav li a {
-    color: #ccc;
+    color: #fff;
     font-size: 16px;
     font-weight: 400;
     padding: 12px;
@@ -1226,9 +1232,34 @@ header {
     padding-top: 90px;
 }
 
+@media (min-width: 350px) and (max-width: 550px){
+  #slider-area.home-style-2 {
+    height: 56em;
+    background: rgba(0, 0, 0, 0) url("img/test3.png") no-repeat scroll center center / cover;
+  }
+  .form-control {
+    display: none !important;
+  }
+
+  .promo-header-area p {
+    font-size: 20px !important;
+    margin-bottom: 0px !important;
+  }
+
+
+}
+/* about index  */
+.home-style-2-1 {
+  background: rgba(0, 0, 0, 0) url("img/about.jpg") no-repeat scroll center center / cover;
+  padding-top: 90px;
+}
 .home-style-2 .navbar.affix {
     background: #ffffff none repeat scroll 0 0;
     height: 55px;
+}
+
+.home-style-2 .navbar.affix li a {
+  color: #ccc;
 }
 
 .home-style-2 .nav>li>a:focus,
@@ -1563,8 +1594,14 @@ Modal
     font-style: normal;
     font-family: "Poppins";
     font-weight: 400;
+    margin-top: -20px;
+    font-size: 45px;
 }
-
+#green-text {
+  color: #51d999;
+  font-size: 48px;
+  margin-left: 0;
+}
 .about-app p {
     margin-bottom: 35px;
     font-family: "Poppins";
@@ -1576,7 +1613,7 @@ Modal
   line-height: 30px;
   color: #a0a0a0;
   font-weight: 200;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .about-app button {
@@ -1599,6 +1636,26 @@ Modal
   color: #51d998;
   margin-left: 55px;
   font-size: 16px;
+}
+
+/* Team boxes about   */
+
+.team-container {
+  max-width: 1500px;
+  margin: 40px auto 0 auto;
+}
+.images-team {
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+@media (min-width: 900px) {
+  .team-container {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 /* about app section 4 for single line  */
@@ -2889,8 +2946,8 @@ Modal
 
 #footer-area {
   background-image: url("img/img-footer.png");
-    padding-bottom: 110px;
-    padding-top: 13em;
+    padding-bottom: 2em;
+    padding-top: 7em;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;

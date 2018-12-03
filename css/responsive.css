@@ -253,14 +253,21 @@
     }
     .subscribe-box button {
         font-size: 20px;
-        height: 40px;
+        height: 50px;
         padding: 0 15px;
     }
 
     .subscribe-box-2 .form-control-2 {
       margin-left: auto;
       margin-right: auto;
+      width: 360px;
     }
+
+    .about-app-2 h1 {
+      margin-top: 20px;
+      font-size: 45px;
+    }
+
     #map {
         height: 260px;
         width: 100%;
@@ -285,7 +292,7 @@
     }
     /*home 2 style*/
     .promo-header-area {
-        margin: 50px auto 0;
+        margin: 450px auto 0;
         width: 100%;
     }
     .promo-header-area h2 {
