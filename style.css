@@ -1242,7 +1242,7 @@ header {
   }
 
   .promo-header-area p {
-    font-size: 20px !important;
+    font-size: 18px !important;
     margin-bottom: 0px !important;
   }
 
@@ -1466,7 +1466,7 @@ Modal
     font-family: "Poppins";
     font-size: 30px;
     font-weight: 100;
-    line-height: 70px;
+    line-height: 40px;
     margin-bottom: 30px;
     text-shadow: 8px 9px 130px grey;
 }
