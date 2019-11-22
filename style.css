@@ -1230,6 +1230,7 @@ header {
 #slider-area.home-style-2 {
     background: rgba(0, 0, 0, 0) url("img/background-img.png") no-repeat scroll center center / cover;
     padding-top: 90px;
+    padding-bottom: 150px;
 }
 
 @media (min-width: 350px) and (max-width: 550px){
