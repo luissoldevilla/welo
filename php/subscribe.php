@@ -1,9 +1,9 @@
 <?php
 
 	// Fill in these three values with Welo mailchimp information
-	$api_key = '743fbb152ce1acd52ddecdde7469e861-us19';
+	$api_key = '38578b50c80851931e64852d750d9a43-us19';
 	$datacenter = 'us19';
-	$list_id = 'e1363eb845';
+	$list_id = '73bcb19c5b';
 
 	$email = $_POST['email'];
 	$status = 'subscribed';
