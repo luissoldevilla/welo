@@ -470,12 +470,17 @@ MARGIN TOP
 }
 
 .mt-100 {
-    margin-top: 170px;
+    margin-top: 50px;
     margin-left: 160px;
 }
 
 .mt-1001 {
     margin-top: 170px;
+    margin-left: 40px;
+}
+
+.mt-1002 {
+    margin-top: 230px;
     margin-left: 40px;
 }
 
@@ -914,7 +919,7 @@ PADDING LEFT
 }
 
 .ptb-120 {
-    padding: 140px 0;
+    padding: 110px 0;
 }
 
 .grey {
@@ -1210,7 +1215,6 @@ header {
     padding: 12px;
     border: 0 solid transparent;
     border-radius: 16px;
-    box-shadow: 0 1px 4px 0 #FF4D30;
     margin-right: 15px;
     margin-top: 5px;
   }
@@ -1304,13 +1308,16 @@ Modal
 
 .modal-body .subscription-form input {
   margin-bottom: 60px;
+  padding-left: 50px;
+  margin: auto;
+  display: block;
 }
 
 .modal-body .subscription-form button {
-  background: #51d998;
+  background: #FF4D30;
   border: medium none;
   border-radius: 15px;
-  box-shadow: 0px 3px 0px 0px #27a06d;
+  box-shadow: 0px 3px 0px 0px #ca351d;
   color: #fff;
   font-size: 18px;
   height: 50px;
@@ -1585,7 +1592,7 @@ Modal
 }
 
 .about-app i {
-    color: #51d999;
+    color: #FF4D30;
     font-style: normal;
     font-family: "Poppins";
     font-weight: 400;
@@ -1618,10 +1625,10 @@ Modal
 }
 
 .about-app button {
-  background: #51d998;
+  background: #FF4D30;
   border: medium none;
   border-radius: 15px;
-  box-shadow: 0px 3px 0px 0px #27a06d;
+  box-shadow: 0px 3px 0px 0px #ca351d;
   color: #fff;
   font-size: 15px;
   height: 40px;
