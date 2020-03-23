@@ -1240,10 +1240,10 @@ header {
 @media (min-width: 350px) and (max-width: 550px){
   #slider-area.home-style-2 {
     height: 56em;
-    background: rgba(0, 0, 0, 0) url("img/test3.png") no-repeat scroll center center / cover;
+    background: rgba(0, 0, 0, 0) url("img/hero_tasti.png") no-repeat scroll center right / cover;
   }
   .form-control {
-    display: none !important;
+    /* display: none !important; */
   }
 
   .promo-header-area p {
@@ -1322,9 +1322,13 @@ Modal
   font-size: 18px;
   height: 50px;
   padding: 0 30px;
-  position: absolute;
-  right: 250px;
-  top: 60px;
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  /* right: 250px; */
+  /* top: 60px; */
+
 }
 
 /* =====================================

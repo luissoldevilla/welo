@@ -6,18 +6,18 @@
         background: transparent;
     }
     .affix-top #navigation {
-        background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, rgba(0, 201, 253, 0.9) 0%, rgba(129, 238, 142, 0.9) 100%) repeat scroll 0 0;
-        background: rgba(0, 0, 0, 0) linear-gradient(to right, rgba(0, 201, 253, 0.9) 0%, rgba(129, 238, 142, 0.9) 100%) repeat scroll 0 0;
+        background: #ff4d30;
+        /* background: rgba(0, 0, 0, 0) linear-gradient(to right, rgba(0, 201, 253, 0.9) 0%, rgba(129, 238, 142, 0.9) 100%) repeat scroll 0 0; */
     }
     .home-style-2 .affix-top #navigation,
     .home-style-2 .navbar.affix {
-        background: #54d99a;
+        /* background: #54d99a; */
     }
     .navbar-brand > img {
         width: 80%;
     }
     .navbar-toggle .icon-bar {
-        background-color: #fff;
+        background-color: #ff4d30;
         height: 4px;
         width: 25px;
     }
@@ -252,15 +252,24 @@
     .subscribe-box .form-control {
         font-size: 14px;
         height: 40px;
-        padding: 0 60px 0 20px;
+        padding: 0 0px 0 20px;
+        display: block;
+        width: 70%;
+        margin: auto;
     }
     .subscribe-box .form-control::-moz-placeholder {
         font-size: 14px;
     }
     .subscribe-box button {
         font-size: 20px;
-        height: 50px;
-        padding: 0 15px;
+        height: 55px;
+        margin-top: 50px;
+        width: 50%;
+
+    }
+
+    .modal-body .subscription-form button {
+      margin-top: 30px;
     }
 
     .subscribe-box-2 .form-control-2 {
