@@ -32,5 +32,5 @@
             alert('Seems something went wrong. Please Try again.');
         });
     });
-    
+
 })(jQuery);
